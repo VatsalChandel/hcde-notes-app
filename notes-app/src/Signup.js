@@ -58,7 +58,9 @@ const Signup = () => {
         <button type="submit">Sign up</button>
       </form>
       
-      {error && <p className="error">{error}</p>}
+      <p>
+        Returning User? <a href="/login">Login here</a> 
+      </p>
     </div>
   );
 };
